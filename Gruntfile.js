@@ -27,7 +27,7 @@ module.exports = function(grunt) {
       build: {
         src: srcFiles,
         options: {
-          specs: 'spec/*Spec.js'
+          specs: specFiles
         }
       }
     },
